@@ -32,5 +32,10 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
            name: build-artifacts
-           path: production-code/
+           path: daemon/dist
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+           name: build-artifacts
+           path: panel/dist
             
