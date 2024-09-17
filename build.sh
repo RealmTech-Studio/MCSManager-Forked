@@ -18,7 +18,6 @@ rm -rf ./panel/dist ./panel/production
 #npm run build
 
 echo "Build frontend..."
-cd ..
 cd frontend
 npm run build
 
