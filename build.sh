@@ -2,11 +2,11 @@
 
 set -e
 
-#npm run preview-build
+npm run preview-build
 
-#rm -rf production-code
-#rm -rf ./daemon/dist ./daemon/production
-#rm -rf ./panel/dist ./panel/production
+rm -rf production-code
+rm -rf ./daemon/dist ./daemon/production
+rm -rf ./panel/dist ./panel/production
 
 #echo "Build daemon..."
 #cd daemon
